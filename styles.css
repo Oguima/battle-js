@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#dados {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.dado {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#mantidos {
+    display: flex;
+    justify-content: center; /* Centraliza os dados mantidos */
+    margin-top: 20px; /* Espaço acima dos dados mantidos */
+}
+
+.mantido {
+    background-color: lightgreen; /* Cor para dados mantidos */
+}
+
+#mantidos .dado {
+    background-color: rgb(144, 213, 238);
+}
+
+.dice {
+    border: 1px black;
+    width: 30px;
+    height: 30px;
+}
